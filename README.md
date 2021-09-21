@@ -2,6 +2,7 @@
 
 // ikkita idishda t1 v1 va t2 v2 hajimli va haroratli suv bor ikkisi bir idishga solindi hosil bo'lgan aralashmaning
 umumiy hajmi va o'rtacha haroratini topish formulasi
+
 #include<iostream>
 
 using namespace std ;
@@ -22,3 +23,19 @@ int main () {
 	cout << "v ="<< v ;
 	return 0 ;
 }
+
+// Kubning qirrasi a uning yuzasi hamda hajmini topish dasturi
+	
+#include<iostream>
+
+using namespace std ;
+
+int main (){
+	int a, V , S;
+	cin>>a;
+	V = a*a*a;
+	cout << "V = "<< V << endl;
+	S = 6*a*a ;
+	cout << " S = "<<S;
+	return 0;
+}	
