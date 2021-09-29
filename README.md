@@ -39,3 +39,45 @@ int main (){
 	cout << " S = "<<S;
 	return 0;
 }	
+	
+	//sonning bo'luvchilari yig'indisi
+	
+	int add(int a) {
+	int s=0;
+	for(int i = 1 ; i<a ; i++) {
+		if(a%i==0)
+			s+=i;
+		
+	}
+	return s;
+}
+int main() {
+	int a;
+	cin>>a;
+	cout<<add(a);
+	return 0;
+}
+	
+	
+	
+	
+	/*natural sonning raqamlar
+yig'indisi*/
+
+
+int add(int a  ) {
+	int sum = 0 , b;
+	while(a>0) {
+		b=a%10;
+		sum=sum+b;
+		a=a/10;
+	}
+	return sum;
+}
+	int main() {
+		int a;
+		cin>>a;
+		cout<<add(a);
+	}
+
+
