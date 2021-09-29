@@ -41,6 +41,7 @@ int main (){
 }	
 	
 	//sonning bo'luvchilari yig'indisi
+	//funksiya orqali
 	
 	int add(int a) {
 	int s=0;
@@ -62,7 +63,7 @@ int main() {
 	
 	
 	/*natural sonning raqamlar
-yig'indisi*/
+yig'indisifunksiya orqali*/
 
 
 int add(int a  ) {
